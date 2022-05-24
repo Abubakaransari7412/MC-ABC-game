@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent);
                 break;
             case R.id.quiz:
-                Intent intent2 = new Intent(MainActivity.this, QuizModule.class );
+                Intent intent2 = new Intent(MainActivity.this, Quiz.class );
                 startActivity(intent2);
                 break;
             case R.id.repo:

@@ -4,6 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.UserDictionary;
+import android.view.View;
+import android.widget.ImageView;
 
 public class workActivity extends AppCompatActivity {
 
@@ -18,11 +21,11 @@ public class workActivity extends AppCompatActivity {
     }
     public  void  backToMain(View v)
     {
-        Intent intent = new Intent(Words.this, LearningModule.class);
+        Intent intent = new Intent(UserDictionary.Words. Learningmodule.class);
         startActivity(intent);
     }
 
-    private void startActivity(Intent intent) {
+    public void startActivity(Intent intent) {
     }
 
 }
