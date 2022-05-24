@@ -80,132 +80,132 @@ public class learning_1 extends AppCompatActivity implements View.OnClickListene
     {
         switch (view.getId()) {
             case R.id.letter_a:
-                image = R.drawable.word_a;
+                image = R.drawable.AAAA;
                 intent.putExtra("wordImage", image);
                 startActivity(intent);
                 break;
             case R.id.letter_b:
-                image = R.drawable.word_b;
+                image = R.drawable.BBBB;
                 intent.putExtra("wordImage", image);
                 startActivity(intent);
                 break;
             case R.id.letter_c:
-                image = R.drawable.word_c;
+                image = R.drawable.CCCC;
                 intent.putExtra("wordImage", image);
                 startActivity(intent);
                 break;
             case R.id.letter_d:
-                image = R.drawable.word_d;
+                image = R.drawable.DDDD;
                 intent.putExtra("wordImage", image);
                 startActivity(intent);
                 break;
             case R.id.letter_e:
-                image = R.drawable.word_e;
+                image = R.drawable.EEEE;
                 intent.putExtra("wordImage", image);
                 startActivity(intent);
                 break;
             case R.id.letter_f:
-                image = R.drawable.word_f;
+                image = R.drawable.FFFF;
                 intent.putExtra("wordImage", image);
                 startActivity(intent);
                 break;
             case R.id.letter_g:
-                image = R.drawable.word_g;
+                image = R.drawable.GGGG;
                 intent.putExtra("wordImage", image);
                 startActivity(intent);
                 break;
             case R.id.letter_h:
-                image = R.drawable.word_h;
+                image = R.drawable.HHHH;
                 intent.putExtra("wordImage", image);
                 startActivity(intent);
                 break;
             case R.id.letter_i:
-                image = R.drawable.word_i;
+                image = R.drawable.IIII;
                 intent.putExtra("wordImage", image);
                 startActivity(intent);
                 break;
             case R.id.letter_j:
-                image = R.drawable.word_j;
+                image = R.drawable.JJJJ;
                 intent.putExtra("wordImage", image);
                 startActivity(intent);
                 break;
             case R.id.letter_k:
-                image = R.drawable.word_k;
+                image = R.drawable.KKKK;
                 intent.putExtra("wordImage", image);
                 startActivity(intent);
                 break;
             case R.id.letter_l:
-                image = R.drawable.word_l;
+                image = R.drawable.LLLL;
                 intent.putExtra("wordImage", image);
                 startActivity(intent);
                 break;
             case R.id.letter_m:
-                image = R.drawable.word_m;
+                image = R.drawable.MMMM;
                 intent.putExtra("wordImage", image);
                 startActivity(intent);
                 break;
             case R.id.letter_n:
-                image = R.drawable.word_n;
+                image = R.drawable.NNNN;
                 intent.putExtra("wordImage", image);
                 startActivity(intent);
                 break;
             case R.id.letter_o:
-                image = R.drawable.word_o;
+                image = R.drawable.OOOO;
                 intent.putExtra("wordImage", image);
                 startActivity(intent);
                 break;
             case R.id.letter_p:
-                image = R.drawable.word_p;
+                image = R.drawable.PPPP;
                 intent.putExtra("wordImage", image);
                 startActivity(intent);
                 break;
             case R.id.letter_q:
-                image = R.drawable.word_q;
+                image = R.drawable.QQQQ;
                 intent.putExtra("wordImage", image);
                 startActivity(intent);
                 break;
             case R.id.letter_r:
-                image = R.drawable.word_r;
+                image = R.drawable.RRRR;
                 intent.putExtra("wordImage", image);
                 startActivity(intent);
                 break;
             case R.id.letter_s:
-                image = R.drawable.word_s;
+                image = R.drawable.SSSS;
                 intent.putExtra("wordImage", image);
                 startActivity(intent);
                 break;
             case R.id.letter_t:
-                image = R.drawable.word_t;
+                image = R.drawable.TTTT;
                 intent.putExtra("wordImage", image);
                 startActivity(intent);
                 break;
             case R.id.letter_u:
-                image = R.drawable.word_u;
+                image = R.drawable.UUUU;
                 intent.putExtra("wordImage", image);
                 startActivity(intent);
                 break;
             case R.id.letter_v:
-                image = R.drawable.word_v;
+                image = R.drawable.VVVV;
                 intent.putExtra("wordImage", image);
                 startActivity(intent);
                 break;
             case R.id.letter_w:
-                image = R.drawable.word_w;
+                image = R.drawable.WWWW;
                 intent.putExtra("wordImage", image);
                 startActivity(intent);
                 break;
             case R.id.letter_x:
-                image = R.drawable.word_x;
+                image = R.drawable.XXXX;
                 intent.putExtra("wordImage", image);
                 startActivity(intent);
                 break;
             case R.id.letter_y:
-                image = R.drawable.word_y;
+                image = R.drawable.YYYY;
                 intent.putExtra("wordImage", image);
                 startActivity(intent);
                 break;
             case R.id.letter_z:
-                image = R.drawable.word_z;
+                image = R.drawable.ZZZZ;
                 intent.putExtra("wordImage", image);
                 startActivity(intent);
                 break;
