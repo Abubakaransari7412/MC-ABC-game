@@ -14,6 +14,9 @@
         android:theme="@style/Theme.ABCGame"
         tools:targetApi="31">
         <activity
+            android:name=".workActivity"
+            android:exported="false" />
+        <activity
             android:name=".learning_1"
             android:exported="false" />
         <activity
