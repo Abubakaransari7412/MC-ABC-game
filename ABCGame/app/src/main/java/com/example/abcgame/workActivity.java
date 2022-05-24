@@ -21,7 +21,8 @@ public class workActivity extends AppCompatActivity {
     }
     public  void  backToMain(View v)
     {
-        Intent intent = new Intent(UserDictionary.Words. Learningmodule.class);
+        Intent intent;
+        intent = new Intent(UserDictionary.Words. Learningmodule.class);
         startActivity(intent);
     }
 
