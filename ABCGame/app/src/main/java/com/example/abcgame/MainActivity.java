@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (view.getId())
         {
             case R.id.learn:
-                Intent intent = new Intent(MainActivity.this, LearningModule.class);
+                Intent intent = new Intent(MainActivity.this, learning_1.class);
                 startActivity(intent);
                 break;
             case R.id.quiz:
