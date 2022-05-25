@@ -35,7 +35,7 @@ public class quiz_module extends AppCompatActivity implements View.OnClickListen
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz_module);
         //array of images corresponding to each alphabet
-        int[] images = {R.drawable.AAAA, R.drawable.BBBB,R.drawable.CCCC,R.drawable.DDDD, R.drawable.EEEE,R.drawable.FFFF,R.drawable.GGGG,R.drawable.HHHH, R.drawable.IIII,R.drawable.JJJJ,R.drawable.KKKK,R.drawable.LLLL, R.drawable.MMMM,R.drawable.NNNN,R.drawable.OOOO,R.drawable.PPPP, R.drawable.QQQQ,R.drawable.RRRR, R.drawable.SSSS,R.drawable.TTTT,R.drawable.UUUU,R.drawable.VVVV, R.drawable.WWWW,R.drawable.XXXX,R.drawable.YYYY,R.drawable.ZZZZ };
+        int[] images = {R.drawable.AAAA, R.drawable.BBBB,R.drawable.CCCC,R.drawable.DDDD, R.drawable.EEEE,R.drawable.FFFF,R.drawable.GGGG,R.drawable.HHHH, R.drawable.IIII,R.drawable.JJJJ,R.drawable.KKKK,R.drawable.LLLL, R.drawable.MMMM,R.drawable.NNNN,R.drawable.OOOO,R.drawable.PPPP, R.drawable.QQQQ,R.drawable.RRRR, R.drawable.SSSS,R.drawable.TTTT,R.drawable.UUUU,R.drawable.VVVV, R.drawable.WWWW };
         alphabet=findViewById(R.id.alphabet);
         //get id of all options
         btn1=findViewById(R.id.option1);

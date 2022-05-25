@@ -71,7 +71,7 @@ public class learning_1 extends AppCompatActivity implements View.OnClickListene
         z.setOnClickListener(this);
 
     //    img = findViewById(R.id.word);
-        intent = new Intent(learning_1.this, Words.class);
+        intent = new Intent(learning_1.this, workActivity.class);
     }
 
 
@@ -191,21 +191,6 @@ public class learning_1 extends AppCompatActivity implements View.OnClickListene
                 break;
             case R.id.letter_w:
                 image = R.drawable.WWWW;
-                intent.putExtra("wordImage", image);
-                startActivity(intent);
-                break;
-            case R.id.letter_x:
-                image = R.drawable.XXXX;
-                intent.putExtra("wordImage", image);
-                startActivity(intent);
-                break;
-            case R.id.letter_y:
-                image = R.drawable.YYYY;
-                intent.putExtra("wordImage", image);
-                startActivity(intent);
-                break;
-            case R.id.letter_z:
-                image = R.drawable.ZZZZ;
                 intent.putExtra("wordImage", image);
                 startActivity(intent);
                 break;

@@ -22,7 +22,7 @@ public class workActivity extends AppCompatActivity {
     public  void  backToMain(View v)
     {
         Intent intent;
-        intent = new Intent(UserDictionary.Words. Learningmodule.class);
+        intent = new Intent(workActivity.this, learning_1.class);
         startActivity(intent);
     }
 

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ABC Game</string>
+    <string name="description">Main</string>
 </resources>
