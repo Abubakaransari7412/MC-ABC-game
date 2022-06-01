@@ -1,0 +1,42 @@
+ public void checkCorrectness(int imgNo, char letter) {
+        int ascii = letter;
+        int num = ascii - 65; //A=0, B=1 so on
+        
+        if (imgNo - num == 0)
+            result.setText("Well Done!");
+        else
+            result.setText("Wrong! Keep Learning");
+    }
+
+    @Override
+    public void onClick(View view)
+    {
+        switch (view.getId()) {
+            case R.id.option1:
+                checkCorrectness(btn1Resource, (alphabet.getText().toString()).charAt(0));
+                break;
+            case R.id.option2:
+                checkCorrectness(btn2Resource, (alphabet.getText().toString()).charAt(0));
+                break;
+            case R.id.option3:
+                checkCorrectness(btn3Resource, (alphabet.getText().toString()).charAt(0));
+                break;
+            case R.id.option4:
+                checkCorrectness(btn4Resource, (alphabet.getText().toString()).charAt(0));
+                break;
+            case R.id.option5:
+                checkCorrectness(btn5Resource, (alphabet.getText().toString()).charAt(0));
+                break;
+            case R.id.next:
+                break;
+        }
+        // whatever case was executed, always move to next activity when a button is clicked after waiting for 5 sec
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            public void run() {
+                intent = new Intent(QuizModule.this, quizSelection.class);
+                startActivity(intent);
+            }
+        }, 5000);  
+
+    }
